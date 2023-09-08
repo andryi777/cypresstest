@@ -17,6 +17,6 @@ describe("grupo de test", () => {
         cy.get('#day').select('29');
         cy.get('#month').select('July');
         cy.get('#year').select(70);
-        cy.get('#submitForm').click()`yopi ${nroRandom}`;
+        cy.get('#submitForm').click();
     });
 })
